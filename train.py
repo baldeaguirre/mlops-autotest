@@ -3,7 +3,7 @@ from sklearn.linear_model import Lasso
 import pickle
 import os
 
-X, y = make_regression(10000,n_features = 11)
+X, y = make_regression(10000,n_features = 10)
 
 # Train a model
 reg = Lasso().fit(X, y.ravel())
